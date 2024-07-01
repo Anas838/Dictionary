@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dictionary-App</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="w-full h-screen bg-zinc-200 flex flex-col justify-center items-center">
+   <div class="flex items-center gap-5">
+    <h1 class="text-5xl font-semibold text-[#8649DC]">Dictionary</h1>
+    <img class="h-16" src="./icon2.png" alt="">
+   </div>
+   <form class="mt-8 w-[28vw]" id="form">
+    <div class="flex gap-5">
+        <input required id="word" placeholder="Type your word here" type="text" class="w-[80%] py-2 px-4 rounded-md outline-none shadow-sm border-none">
+        <input type="submit" class="bg-purple-400 px-4 rounded-md text-white font-semibold cursor-pointer transition-all duration-500 ease-in-out hover:shadow-md hover:shadow-purple-300">
+    </div>
+    <div id="container" class="w-full min-h-60 rounded-md border-[1px] border-purple-300 bg-purple-400/10 mt-8 p-4">
+       
+    </div>
+   </form>
+</body>
+<script src="dictionary.js"></script>
+</html>
